@@ -19,7 +19,14 @@ const slides = [
 
 
 
-var left_arrow = document.querySelector('arrow_left')
-var right_arrow = document.querySelector('arrow_right')
+const left_arrow = document.getElementById('arrow_left')
+const right_arrow = document.getElementById('arrow_right');
+const banner = document.getElementById('banner-img');
+
+left_arrow.addEventListener("click", (event) => {console.log('fleche gauche');});
+right_arrow.addEventListener("click", (event) => {
+	console.log('fleche droite');
+	
+});
 
 
